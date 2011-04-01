@@ -7,7 +7,7 @@
  * http://benalman.com/about/license/
  */
 
-(function( document ) {
+;(function() {
   
   var name = 'QSA', // YOUR LIBRARY'S FULL NAME.
       global = this,
@@ -34,4 +34,8 @@
     return fn;
   };
   
-})(document);
+// For cross-environment compatibility, check for the exports global in Node.js.
+// In the case that it is available, your global can be exposed with require().
+// To-Do: Support other server side frameworks?
+
+}).call(this.exports || this);
