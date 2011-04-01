@@ -4,7 +4,7 @@
 
 ## Modification instructions
 
-Change the `name` and `fn` function. And rename the .js file.
+Change the `name` and `fn` function. And rename the .js file. And change any references to 'QSA' or 'qsa' to your new name. And write unit tests. And document things. Or just use [jQuery](http://jquery.com/).
 
 ## License
 
