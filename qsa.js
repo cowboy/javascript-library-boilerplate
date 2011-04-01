@@ -7,10 +7,9 @@
  * http://benalman.com/about/license/
  */
 
-(function( document ) {
+(function( global, document ) {
   
   var name = 'QSA', // YOUR LIBRARY'S FULL NAME.
-      global = this,
       old$ = global.$,
       oldN = global[name];
   
@@ -34,4 +33,4 @@
     return fn;
   };
   
-})(document);
+})(this, document);
