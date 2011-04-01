@@ -1,10 +1,14 @@
 # JavaScript Library Boilerplate
 
-"Roll your own"
+<http://benalman.com/projects/javascript-library-boilerplate/>
+
+_"Roll your own"_
 
 ## Modification instructions
 
-Change the `name` and `fn` function. And rename the .js file. And change any references to `QSA` or `qsa` to your new name. And write unit tests. And document things. Or just use [jQuery](http://jquery.com/).
+Fork the repo. Change the `name` and `$` function. And rename the .js file. And change any references to `QSA` or `qsa` to your new name. And edit the unit tests. And document everything. Or just use [jQuery](http://jquery.com/).
+
+Just fork the [repo][github], change the `name` and `$` function, rename the .js files, change any references to `QSA` or `qsa` to your new name, edit the unit tests, and document everything.
 
 ## License
 

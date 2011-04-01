@@ -1,6 +1,6 @@
 /*!
  * JavaScript Library Boilerplate - v0.1.1 - 4/1/2011
- * http://benalman.com/
+ * http://benalman.com/projects/javascript-library-boilerplate/
  *
  * Copyright (c) 2011 "Cowboy" Ben Alman
  * Dual licensed under the MIT and GPL licenses.
