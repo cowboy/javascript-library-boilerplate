@@ -7,6 +7,10 @@
  * http://benalman.com/about/license/
  */
 
+// It's a good idea to start with a semicolon in case the previous library that
+// was loaded does not finish with one. This ensures your self returning function
+// will behave as intended.
+
 ;(function() {
   
   var name = 'QSA', // YOUR LIBRARY'S FULL NAME.
