@@ -11,7 +11,7 @@
 // was loaded does not finish with one. This ensures your self returning function
 // will behave as intended.
 
-;(function() {
+;(function(document) {
   
   var name = 'QSA', // YOUR LIBRARY'S FULL NAME.
       global = this,
@@ -40,6 +40,5 @@
   
 // For cross-environment compatibility, check for the exports global in Node.js.
 // In the case that it is available, your global can be exposed with require().
-// To-Do: Support other server side frameworks?
 
-}).call(this.exports || this);
+}).call(this.exports || this, this.document || null);
