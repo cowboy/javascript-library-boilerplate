@@ -1,5 +1,5 @@
 /*!
- * JavaScript Framework Boilerplate - v0.1 - 4/1/2011
+ * JavaScript Library Boilerplate - v0.1 - 4/1/2011
  * http://benalman.com/
  * 
  * Copyright (c) 2011 "Cowboy" Ben Alman

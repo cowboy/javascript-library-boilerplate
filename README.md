@@ -1,4 +1,4 @@
-# JavaScript Framework Boilerplate
+# JavaScript Library Boilerplate
 
 "Roll your own"
 
