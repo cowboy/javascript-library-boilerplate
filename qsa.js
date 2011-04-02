@@ -13,10 +13,10 @@
   var name = 'QSA', // YOUR LIBRARY'S FULL NAME.
       global = this,
       old$ = global.$,
-      oldN = global[name];
+      oldN = global[name],
 
-  // Create a global reference to our library.
-  global.$ = global[name] = $ = document.querySelectorAll.bind(document);
+      // Create a global reference to our library.
+      $ = global.$ = global[name] = document.querySelectorAll.bind(document);
 
   // Calling .noConflict will restore the global $ to its previous value.
   // Passing true will do that AND restore the full global name as well.
