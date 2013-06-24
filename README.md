@@ -16,6 +16,9 @@ More complete instructions are available at the [project page][project].
 
 For more information on the included blazingly-fast 0.3kb QSA css selector library, visit the [project page][project].
 
+## Comparison with other solutions (the test focuses on the length of the selector function)
+![Chart](https://github.com/bpierre/javascript-library-boilerplate/raw/master/chart.png)
+
 ## License
 
 Copyright (c) 2011 "Cowboy" Ben Alman  
